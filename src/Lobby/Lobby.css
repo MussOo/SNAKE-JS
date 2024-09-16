@@ -1,0 +1,89 @@
+.main{
+    background-color: #F4F7F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+
+h1{
+    color: #6E56CF;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.btn_startgame{
+    background-color: #161925;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 20%;
+}
+.btn_startgame:hover{
+    background-color: #6E56CF;
+    transition: 0.9s;
+    scale: 1.1;
+}
+.btn_startgame::after{
+    content: "🚀";
+    margin-left: 10px;
+}
+.container_lobby{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+}
+
+
+.container_difficulte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.container_difficulte span{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container_difficulte select {
+    font-size: 1.5rem;
+    padding: 2px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container_difficulte button{
+    background-color: #161925;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
