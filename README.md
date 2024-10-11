@@ -1,71 +1,63 @@
-# Getting Started with Create React App
+# Snake Game en React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est une implémentation du célèbre jeu Snake, réalisée en **React JS**. Le joueur peut non seulement jouer une partie classique de Snake, mais aussi choisir le niveau de difficulté avant de commencer la partie. Les différentes difficultés influencent la vitesse à laquelle le serpent se déplace.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+![image](https://github.com/user-attachments/assets/9c12c64f-d3ba-4ac6-8ef6-a01b3d8cbb50)
+![image](https://github.com/user-attachments/assets/64b5b409-4268-4a3e-9cb1-22d8bac05aa0)
+![image](https://github.com/user-attachments/assets/816b51c2-4512-45ec-a9cb-ff28feabf7f1)
 
-### `npm start`
+- **Jeu Snake** : contrôle d'un serpent qui grandit en mangeant de la nourriture, tout en évitant les murs et de se mordre lui-même.
+- **Choix de la difficulté** : un menu permet de sélectionner la difficulté du jeu (facile, moyen, difficile), affectant la vitesse du serpent.
+- **Design réactif** : interface utilisateur moderne et simple, s'adaptant à différents écrans.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies utilisées
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React JS** : pour la gestion des composants et du rendu dynamique.
+- **CSS** : pour le style de l'application.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Pour exécuter ce projet en local, suivez les étapes suivantes :
 
-### `npm run build`
+1. ***Clonez le dépôt :***
+    
+    ```
+    git clone https://github.com/ton-compte/snake-game.git
+    ```
+    
+2. ***Accédez au répertoire du projet :***
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. ***Lancez l'application :***
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm start
+```
 
-### `npm run eject`
+## Utilisation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Sur la page d'accueil, vous avez la possibilité de choisir une difficulté avant de démarrer le jeu.
+- Utilisez les flèches directionnelles pour contrôler le serpent.
+- Le jeu se termine si le serpent touche un mur ou son propre corps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Améliorations futures
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Voici quelques idées d'améliorations possibles pour ce projet :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Ajout d'un système de score et de classement.
+- Possibilité de rejouer automatiquement après une partie.
+- Ajout de bonus ou d'obstacles pour rendre le jeu plus dynamique.
+- Ajout d'un mode multijoueur.
 
-## Learn More
+## Contributions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Les contributions sont les bienvenues ! Si vous avez des idées, des suggestions ou des corrections à apporter, n'hésitez pas à soumettre une pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licence
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# SNAKE-JS
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
